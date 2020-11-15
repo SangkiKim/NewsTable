@@ -14,6 +14,7 @@
 		6B6759B8255AE4640079DBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6759B6255AE4640079DBAE /* Main.storyboard */; };
 		6B6759BA255AE4660079DBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6759B9255AE4660079DBAE /* Assets.xcassets */; };
 		6B6759BD255AE4660079DBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6759BB255AE4660079DBAE /* LaunchScreen.storyboard */; };
+		6BDCC40A25615BDE007D1DCF /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCC40925615BDE007D1DCF /* NewsDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B6759B9255AE4660079DBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B6759BC255AE4660079DBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B6759BE255AE4660079DBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDCC40925615BDE007D1DCF /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6B6759BB255AE4660079DBAE /* LaunchScreen.storyboard */,
 				6B6759BE255AE4660079DBAE /* Info.plist */,
 				6B45F4AC255C321E00039E99 /* Type1.swift */,
+				6BDCC40925615BDE007D1DCF /* NewsDetailController.swift */,
 			);
 			path = sangkiTable;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6759B5255AE4640079DBAE /* ViewController.swift in Sources */,
+				6BDCC40A25615BDE007D1DCF /* NewsDetailController.swift in Sources */,
 				6B45F4AD255C321E00039E99 /* Type1.swift in Sources */,
 				6B6759B1255AE4640079DBAE /* AppDelegate.swift in Sources */,
 				6B6759B3255AE4640079DBAE /* SceneDelegate.swift in Sources */,
@@ -220,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
